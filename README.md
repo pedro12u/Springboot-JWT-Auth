@@ -112,10 +112,11 @@ DELETE /usuarios/{id}
 Acesso restrito a ADMIN
 
 Testes
+
 Para testar:
-Crie 2 usuários: 1 com role=ADMIN e outro com role=USER
-Faça login com ambos e teste os acessos com o token
-Teste chamadas sem token e com role errada para garantir segurança
+- Crie 2 usuários: 1 com role=ADMIN e outro com role=USER
+- Faça login com ambos e teste os acessos com o token
+- Teste chamadas sem token e com role errada para garantir segurança
 
 Estrutura do Projeto
  ```bash
